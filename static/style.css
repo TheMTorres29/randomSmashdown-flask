@@ -1,0 +1,43 @@
+body { font-family: Impact, sans-serif; text-align: center; background-color: #161616; }
+h1 { font-size: 2.5em; margin-bottom: 0.2em; font-weight: 100; color:  rgba(255, 255, 255, 0.87); }
+h2, h3 { margin-bottom: 0.2em; font-weight: 100; color:  rgba(255, 255, 255, 0.87); }
+.fighter-container { display: flex; flex-direction: column; align-items: center; margin: 0 auto; }
+.fighter-img { width: 90px; max-height: 100%;  object-fit: contain; }
+.RandomBtn {
+    background-color: #c9c9c5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.RandomBtn:hover {
+    background-color: #cfcb5d;
+}
+.ResetBtn {
+    background-color: #82827f;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    
+}
+.ResetBtn:hover {
+    background-color: #f44336;
+}
+.history img { margin: 2px; border-radius: 8px; }
+@media (max-width: 500px) {
+    .fighter-img { width: 100px !important; }
+    .history img { width: 24px !important; }
+}
